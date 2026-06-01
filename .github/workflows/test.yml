@@ -1,0 +1,19 @@
+name: test workflow
+on: workflow_dispatch
+
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print working directory
+      - run: pwd
+
+      - name: list files
+      - run: ls -a
+
+      - name: show ubuntu version
+      - run: cat /etc/os-release
+
+      - name: show kernet info
+      - run: uname -a
