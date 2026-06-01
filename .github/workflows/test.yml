@@ -15,5 +15,5 @@ jobs:
       - name: show ubuntu version
         run: cat /etc/os-release
 
-      - name: show kernet info
+      - name: show kernel info
         run: uname -a
