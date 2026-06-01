@@ -7,13 +7,13 @@ jobs:
 
     steps:
       - name: print working directory
-      - run: pwd
+        run: pwd
 
       - name: list files
-      - run: ls -a
+        run: ls -a
 
       - name: show ubuntu version
-      - run: cat /etc/os-release
+        run: cat /etc/os-release
 
       - name: show kernet info
-      - run: uname -a
+        run: uname -a
